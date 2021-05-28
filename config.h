@@ -2,9 +2,9 @@
 
 /* appearance */
 static const char font[]        = "monospace:size=9";
-static const char* normbgcolor  = "#222222";
+static const char* normbgcolor  = "#555555";
 static const char* normfgcolor  = "#cccccc";
-static const char* selbgcolor   = "#555555";
+static const char* selbgcolor   = "#4F126A";
 static const char* selfgcolor   = "#ffffff";
 static const char* urgbgcolor   = "#111111";
 static const char* urgfgcolor   = "#cc0000";
@@ -21,8 +21,9 @@ static       Bool urgentswitch  = False;
  * then the current position is changed + newposition. If npisrelative
  * is False, then newposition is an absolute position.
  */
-static int  newposition   = 1;
+static int  newposition   = 0;
 static Bool npisrelative  = False;
+float alpha = 0.30;
 
 #define SETPROP(p) { \
         .v = (char *[]){ "/bin/sh", "-c", \
