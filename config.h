@@ -1,11 +1,11 @@
 /* See LICENSE file for copyright and license details. */
 
 /* appearance */
-static const char font[]        = "monospace:size=9";
+static const char font[]        = "Liberation Mono:size=12";
 static const char* normbgcolor  = "#555555";
 static const char* normfgcolor  = "#cccccc";
-static const char* selbgcolor   = "#4F126A";
-static const char* selfgcolor   = "#ffffff";
+static const char* selbgcolor   = "#2a9d8f";
+static const char* selfgcolor   = "#eeeeee";
 static const char* urgbgcolor   = "#111111";
 static const char* urgfgcolor   = "#cc0000";
 static const char before[]      = "<";
